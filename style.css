@@ -1,0 +1,44 @@
+.navbar {
+  width: 100%;
+  overflow: hidden;
+  display: block;
+  align-items: center;
+  margin-left: 300px;
+  padding-left: 130px;
+  z-index: 999;
+}
+img {
+  width: 60px;
+  height: 75px;
+}
+.navbar a {
+  float: left;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 17px;
+  width: 50px;
+  margin-top: 25px;
+  margin-left: 45px;
+  z-index: -999;
+}
+
+.navbar a:hover {
+}
+
+.active {
+}
+
+@media (max-width: 800px) {
+  .navbar {
+    margin-left: 50px;
+    padding: 0;
+    text-decoration: none;
+  }
+}
+@media (max-width: 1200px) {
+  .navbar {
+    margin-left: 50px;
+    padding: 0;
+    text-decoration: none;
+  }
+}

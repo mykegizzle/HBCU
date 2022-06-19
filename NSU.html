@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <style>
+      .info {
+        text-align: center;
+      }
+      .image1 {
+        padding-top: 5px;
+        position: absolute;
+        margin-top: 100px;
+        left: 35px;
+        width: 300px;
+        height: 400px;
+      }
+
+      .youtube {
+        margin-top: 50px;
+        margin-left: 175px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 7px;
+        row-gap: 7px;
+        grid-template-areas:
+          ". . . "
+          ". . . "
+          ". . . ";
+        justify-content: space-evenly;
+        justify-items: center;
+        align-items: center;
+      }
+      .college {
+        width: 75%;
+        height: 75%;
+        background-image: url("./seals/NorfolkState.png");
+        margin-left: auto;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        word-wrap: break-word;
+        text-overflow: clip;
+        text-align: center;
+        font-size: 35px;
+        margin-left: 420px;
+      }
+
+      body {
+        background: #007a53;
+        text-align: center;
+        align-content: center;
+        width: 75vw;
+        height: 100vh;
+        scroll-behavior: auto;
+      }
+
+      @media (max-width: 1200px) {
+        .college {
+          margin-left: auto;
+          width: 55%;
+          height: 75%;
+          background-image: url("./seals/NorfolkState.png");
+          background-size: contain;
+          background-position: left;
+          background-repeat: no-repeat;
+        }
+      }
+      @media (max-width: 800px) {
+        .college {
+          margin-left: auto;
+          width: 55%;
+          height: 75%;
+          background-image: url("./seals/NorfolkState.png");
+          background-size: contain;
+          background-position: left;
+          background-repeat: no-repeat;
+        }
+      }
+      @media (max-width: 800px) {
+        .youtube {
+          margin-left: -50px;
+          left: 5px;
+          float: left;
+          display: block;
+        }
+      }
+      @media (max-width: 1200px) {
+        .youtube {
+          margin-left: -150px;
+          left: 5px;
+          float: left;
+          display: block;
+        }
+      }
+
+      @media (max-width: 800px) {
+        .image1 {
+          grid-template-columns: 1fr;
+          float: left;
+          display: block;
+        }
+      }
+      @media (max-width: 1200px) {
+        .image1 {
+          opacity: 0;
+          grid-template-columns: 1fr;
+          float: left;
+          display: block;
+        }
+      }
+    </style>
+    <title>Norfolk State</title>
+    <link rel="icon" href="./icons/NSU.png" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="navbar">
+      <a class="active" href="index.html"
+        ><i class="FAMU"> <img src="./icons/FamU.png" alt="Logo" /></i
+      ></a>
+      <a class="active" href="BC.html"
+        ><i class="belt"> <img src="./icons/BC.png" alt="Logo" /></i
+      ></a>
+      <a class="active" href="NSU.html"
+        ><i class="belt"> <img src="./icons/NSU.png" alt="Logo" /></i
+      ></a>
+
+      <a class="active" href="SU.html"
+        ><i class="belt"> <img src="./icons/SU.png" alt="Logo" /></i
+      ></a>
+
+      <a class="active" href="JSU.html"
+        ><i class="belt"> <img src="./icons/JSU.png" alt="Logo" /></i
+      ></a>
+      <a class="active" href="ASU.html"
+        ><i class="belt"> <img src="./icons/AlabamaState.png" alt="Logo" /></i
+      ></a>
+      <a class="active" href="NCATT.html"
+        ><i class="belt"> <img src="./icons/NCATTpng.png" alt="Logo" /></i
+      ></a>
+      <a class="active" href="PVAM.html"
+        ><i class="belt"> <img src="./icons/PVAM.png" alt="Logo" /></i
+      ></a>
+      <a class="active" href="HU.html"
+        ><i class="belt"> <img src="./icons/HU.png" alt="Logo" /></i
+      ></a>
+      <a class="active" href="TSU.html"
+        ><i class="belt"> <img src="./icons/TSU.png" alt="Logo" /></i
+      ></a>
+    </div>
+
+    <nav class="logoshere">
+      <div class="sidelogos">
+        <img src="./sidelogo/NSU.png" class="image1" alt="NSUsideLogo" />
+      </div>
+    </nav>
+    <div class="college">
+      <div class="youtube">
+        <iframe
+          width="420"
+          height="345"
+          src="https://www.youtube.com/embed/4zd3W18ZyFY"
+        >
+        </iframe>
+        <iframe
+          width="420"
+          height="345"
+          src="https://www.youtube.com/embed/yRHdmAescJM"
+        >
+        </iframe>
+        <iframe
+          width="420"
+          height="345"
+          src="https://www.youtube.com/embed/DCU38ev6x2Q"
+        >
+        </iframe>
+        <iframe
+          width="420"
+          height="345"
+          src="https://www.youtube.com/embed/oyIOmMPX8wk"
+        >
+        </iframe>
+        <iframe
+          width="420"
+          height="345"
+          src="https://www.youtube.com/embed/7nZjcSNPSfM"
+        >
+        </iframe>
+        <iframe
+          width="420"
+          height="345"
+          src="https://www.youtube.com/embed/4zd3W18ZyFY"
+        >
+        </iframe>
+      </div>
+    </div>
+  </body>
+</html>
